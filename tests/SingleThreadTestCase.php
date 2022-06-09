@@ -86,6 +86,8 @@ class SingleThreadTestCase extends TestCase
      */
     public function testDifferentMutexesStateRemove(callable $instantiator): void
     {
+        $this->markTestIncomplete('TODO: Undefined behavior');
+
         /**
          * @var MutexInterface $a
          * @var MutexInterface $b

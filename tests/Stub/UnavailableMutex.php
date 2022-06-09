@@ -37,6 +37,11 @@ class UnavailableMutex implements MutexInterface
         $this->context->markTestIncomplete($this->error->getMessage());
     }
 
+    public function isLocked(): bool
+    {
+        $this->context->markTestIncomplete($this->error->getMessage());
+    }
+
     public function lock(): void
     {
         $this->context->markTestIncomplete($this->error->getMessage());
