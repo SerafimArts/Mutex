@@ -1,5 +1,6 @@
 {
     "name": "serafim/mutex",
+    "description": "Pure PHP mutex implementation",
     "type": "library",
     "license": "MIT",
     "require": {
@@ -22,7 +23,7 @@
         }
     },
     "suggest": {
-        "ext-sysvsem": "Natvie System-V semaphores"
+        "ext-sysvsem": "Natvie System-V Semaphores"
     },
     "extra": {
         "branch-alias": {
